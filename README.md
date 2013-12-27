@@ -1,7 +1,7 @@
 # One Session #
 
 ### About ###
-It will force users to sign if they have been logged
+It will force users to sign in if they have been logged
 in elsewhere, a single browser session at one time
 (apart from admins, who are immune)
 

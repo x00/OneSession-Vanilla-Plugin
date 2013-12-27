@@ -3,7 +3,7 @@
 // Define the plugin:
 $PluginInfo['OneSession'] = array(
    'Name' => 'OneSession',
-   'Description' => 'It will force users to sign in they have been logged in elsewhere, a single browser session at one time (apart from admins, who are immune)',
+   'Description' => 'It will force users to sign in if they have been logged in elsewhere, a single browser session at one time (apart from admins, who are immune)',
    'Version' => '0.1.2b',
    'Author' => "Paul Thomas",
    'RequiredApplications' => array('Vanilla' => '2.0.18'),
