@@ -78,7 +78,7 @@ class OneSession extends Gdn_Plugin {
         $OneSession = $User->OneSessionID;
         $CookieName = C('Garden.Cookie.Name', 'Vanilla');
         
-        list($OneName,$OneValue) = split('\|',$OneSession);
+        list($OneName,$OneValue) = split('\|',$OneSession ? $OneSession : '|');
         
         if(!$User->OneSessionSet){
             $this->Purge();
